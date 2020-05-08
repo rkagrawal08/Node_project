@@ -1,0 +1,724 @@
+/* Importing Muli font from Google */
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+*{
+    font-family: Muli;
+    font-style: normal;
+    margin: 0;
+    padding:0;
+}
+.brand{
+    width: 28px;
+    height: 21px;
+    margin-bottom: 10px;
+}
+/*-------------top-navbar-css-----------*/
+* {box-sizing: border-box;}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    overflow: hidden;
+    background-color: midnightblue;
+    padding: 18px 15px;
+}
+.header2{
+    overflow: hidden;
+    background-color: goldenrod;
+    padding: 5px 5px;
+}
+
+.header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header a:hover {
+    background-color: goldenrod;
+    color: black;
+}
+.header-right {
+    float: right;
+}
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right {
+        float: none;
+    }
+}
+.logo{
+    height: 15px;
+}
+/*------------END-top-navbar-css-----------*/
+
+/*-------------School-logo-css-----------*/
+.school-logo{
+    width: 90px;
+    height: 90px;
+    margin-top: -15px;
+    margin-left: 15px;
+}
+
+/*-------------School-logo-css-----------*/
+@media screen and (max-width: 768px) {
+    .logo{
+        height: 70px;
+    }
+    .school-logo{
+        width: 90px;
+        height: 90px;
+        margin-top: -15px;
+    }
+
+}
+/*--------------------  School name     ---------------*/
+.school-name{
+    font-size: 45px;
+    font-weight: 700;
+    color: black;
+}
+.school-img{
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+}
+.school-quote{
+    color: goldenrod;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom:3px;
+
+}
+.school-name2{
+    color: black;
+    font-weight: 700;
+    font-size: 25px;
+}
+.blinking{
+    animation:blinkingText .8s infinite;
+    font-size: 25px;
+    font-weight: 800;
+    float:right;
+    padding-top: -10px;
+}
+@keyframes blinkingText{
+    0%{     color: blue;    }
+    39%{    color: red; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: red;    }
+}
+/*--------------------  End School name & quots     ---------------*/
+/*------------Social link-------------------------*/
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 19px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.facebook {
+    background: #3B5998;
+    color: white;
+}
+.instagram{
+    background:mediumvioletred;
+    color: white;
+}
+
+.content {
+    margin-left: 75px;
+    font-size: 30px;
+}
+@media screen and (max-width: 433px) {
+    .icon-bar {
+        top:69%!important;
+    }
+}
+
+/*-----------End-social link----------------------*/
+/*-------------------------- Mission & Vision  ------------------*/
+.text-mission{
+    overflow: hidden;
+    background-color:whitesmoke;
+    color: black;
+    padding: 1px ;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.text-vision{
+    overflow: hidden;
+    background-color:whitesmoke;
+    color: black;
+    padding: 1px ;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 1000px) {
+    .text-mission{
+        text-align: center;
+    }
+    .text-vision{
+        text-align: center;
+    }
+    .school-img{
+        height: 450px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .text-mission{
+        text-align: center;
+    }
+    .text-vision{
+        text-align: center;
+    }
+    .school-img{
+        height: 450px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+}
+
+@media only screen and (max-width: 433px) {
+    .text-mission{
+        text-align: center;
+    }
+    .text-vision{
+        text-align: center;
+    }
+    .school-img{
+        height: 350px;
+        width: 100%;
+        object-fit: cover;
+    }
+ .school-name{
+     font-size: 30px;
+ }
+}
+@media only screen and (min-device-width : 768px)and (max-device-width : 1024px) {
+
+}
+
+/*
+.school-name{
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+ */
+/*--------------------  Index-End     ---------------*/
+
+
+
+
+
+
+/*-------------------------Admission-CSS-------------------------------*/
+.admission-open1{
+    width:98%;
+    height: 550px!important;
+
+}
+.admission-notice{
+    font-size: 24px;
+    font-weight: bold;
+}
+.front-notice {
+    overflow: hidden;
+    background-color:whitesmoke;
+    color: black;
+    padding: 1px ;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 1000px) {
+    .btn-know{
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .btn-know{
+        font-size: 12px;
+        width: 30%!important;
+        font-weight: 600;
+    }
+    .admission-open1{
+        height:220px;
+    }
+    .myMarquee {
+        width:400px!important;
+        height:80px;
+    }
+    .scroller {
+        width:400px!important;
+        height:40px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .btn-know{
+        font-size: 15px;
+        width: 30%!important;
+        font-weight: 600;
+    }
+    .admission-open1{
+        height:190px!important;
+    }
+
+}
+@media only screen and (max-width: 433px) {
+    .admission-open1{
+        height:190px!important;
+    }
+    .myMarquee {
+        width:365px!important;
+        height:80px;
+    }
+    .scroller {
+        width:340px!important;
+        height:40px;
+    }
+}
+/*-------------------------media-Query End-----------------*/
+.admission-open2{
+    border-radius: 50%;
+    margin-bottom: 10px!important;
+}
+
+.myMarquee {
+    width:700px;
+    height:80px;
+    overflow:hidden;
+    position:relative;
+    border:1px solid #aaa;
+    margin:0 auto;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.7);
+    -o-border-radius: 18px 18px;
+    -moz-border-radius: 18px 18px;
+    -webkit-border-radius: 18px 18px;
+    border-radius: 18px 18px;
+    background:#f8f8f8;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 95%, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0)));
+    background-image: -moz-linear-gradient(-90deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0));
+}
+
+.scroller {
+    display:block;
+    width:1240px;
+    height:40px;
+    position:absolute;
+    left:0;
+    top:0;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -moz-animation-duration:10s;
+    -moz-animation-name: scroll;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-duration:10s;
+    -webkit-animation-name: scroll;
+}
+
+.scroller div {
+    font-family:georgia, serif;
+    font-size:16px;
+    line-height:40px;
+    float:left;
+    width:600px;
+    color:#000;
+    font-weight:bold;
+    padding:0 10px;
+}
+
+.scroller div a {color:#c00;}
+
+@-moz-keyframes scroll {
+    0% {left:0;}
+    100% {left:-620px;}
+}
+.scroller:hover {
+    -moz-animation-play-state: paused;
+}
+
+@-webkit-keyframes scroll {
+    0% {left:0;}
+    100% {left:-620px;}
+}
+.scroller:hover {
+    -webkit-animation-play-state: paused;
+}
+.notice{
+    overflow: hidden;
+    background-color:goldenrod;
+    padding: 10px ;
+    text-align: center;
+    font-weight: bold;
+    font-size:22px!important;
+    transition: 5s;
+    color:black!important;
+    box-shadow: 2px 2px 5px black;
+    text-shadow:0 1px 5px white ;
+}
+/*-----------------------------------------END-Admission-CSS--------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/*------------------------------------------About US-CSS--------------------------------------------------*/
+.our-vision{
+    overflow: hidden;
+    background-color:goldenrod;
+    color: black;
+    padding: 1px ;
+    font-size: 18px;
+}
+.about-vision{
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .img-vision{
+
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .img-vision{
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 433px) {
+    .img-vision{
+     height: 250px;
+    }
+}
+
+/*-----------------------------------------End-About US-CSS--------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------Contact US-CSS--------------------------------------------------*/
+.back{
+   background-color: goldenrod;
+    color: black;
+
+}
+.call{
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.msg{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 720px) {
+    .call{
+        font-size: 18px;
+        font-weight: 600;
+
+    }
+    .msg{
+        font-size: 22px;
+        font-weight: 400;
+
+    }
+}
+
+@media only screen and (max-width: 433px) {
+    .call{
+        font-size: 18px;
+
+
+    }
+    .msg{
+        font-size: 18px;
+
+
+    }
+}
+/*------------------------------------info-css -------------------*/
+
+/* Enrollment form Section CSS */
+.information{
+    background: #10133e;
+    padding: 7% 0;
+}
+
+.information h2{
+    font-weight: 600 !important;
+    font-size: 28px !important;
+    line-height: 40px !important;
+    color: #FFFFFF !important;
+}
+
+.information h5{
+    color: #FFFFFF;
+}
+
+.information form{
+    margin-left: 33%;
+    margin-top: 2%;
+    width: 50%;
+    transform: translateX(-16%);
+}
+
+.information form input, .information form select{
+    margin-top:3%;
+    width: 100%;
+    padding: 6px 10px;
+}
+
+.request-btn{
+    border-radius: 0 !important;
+    width: 50% !important;
+    background: goldenrod;
+    font-size: 18px;
+    border: 1px solid goldenrod;
+    line-height: 23px;
+    color:black;
+    margin-top: 3%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .request-btn{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .request-btn{
+        font-size: 12px;
+        width: 30%!important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .request-btn{
+        font-size: 15px;
+        width: 100%!important
+
+    }
+}
+
+.request-btn:hover{
+    border: 1px solid #E7003E;
+    background: #FFFFFF;
+    color: #E7003E;
+}
+/*-----------------------------------End-info-css -------------------*/
+/*------------------------------------------Contact US-CSS--------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------Footer-Css---------------------------*/
+
+/*-----------------Footer-Social media icons Css---------------------------*/
+footer {
+    background-color: #f2f2f2;
+}
+footer {
+    padding: 40px 0 0;
+
+}
+footer .widget {
+    margin-bottom: 30px;
+}
+footer .widget h3 {
+    font-size: 25px;
+    color: black;
+}
+footer .widget ul li a{
+    font-size: 18px;
+
+}
+.sub-footer {
+    margin-top: 30px;
+    background-color: #f7f7f7;
+    border-top: 1px solid #ddd;
+    padding: 30px 0 10px;
+}
+
+.sub-footer a{
+    color: #444;
+}
+
+footer .sub-footer  p {
+    font-size: 14px;
+}
+
+#lab_social_icon_footer {
+    padding: 40px 0;
+    background-color: black;
+}
+
+#lab_social_icon_footer a {
+    color: white;
+}
+.copy-right{
+    color: white;
+}
+#lab_social_icon_footer .social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+#lab_social_icon_footer .social {
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+
+#lab_social_icon_footer #social-fb:hover {
+    color: #3B5998;
+}
+
+#lab_social_icon_footer #social-tw:hover {
+    color: #4099FF;
+}
+
+#lab_social_icon_footer #social-ln:hover {
+    color: lightseagreen;
+}
+#lab_social_icon_footer #social-im:hover {
+    color: palevioletred;
+}
+#lab_social_icon_footer .sociyo {
+color: goldenrod;
+}
+#lab_social_icon_footer .sociyo:hover {
+    color: midnightblue;
+}
+
